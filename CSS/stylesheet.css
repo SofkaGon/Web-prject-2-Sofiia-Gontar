@@ -65,19 +65,18 @@ p{
 .first-nations-lightblue-treatypages{
     background-color: #c7ddff;
     color: #65a2ff;
-    height: 750px;
+    height: 1400px;
 }
 
 .grid-container {
     display: grid;
-    grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px; 
-    padding: 20px;
+    padding: 40px;
 }
 
 .grid-item {
     text-align: center; 
-    background: #f9f9f9; 
     padding: 15px;
 }
 
