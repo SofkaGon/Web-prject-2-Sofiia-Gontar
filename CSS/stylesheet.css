@@ -85,3 +85,39 @@ p{
     height: auto;
     border-radius: 8px;
 }
+
+footer{
+    background-color: #154987;
+    color: #fff;
+    text-align: center;
+    height: 600px;
+}
+
+h3{
+    font-family: 'League Spartan', regular;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: -8px;
+    padding-top: 2%;
+}
+
+h4{
+    font-family: 'Pangolin', regular;
+    font-size: 30px;
+    margin-top: -8px;
+    padding-top: 2%;
+
+}
+
+.links-treatypages{
+    font-size: 20px;
+    color:#8bbdfa;
+}
+
+.footer-copyright-white-treatypages{
+    font-size: 20px;
+    font-family: 'League Spartan', regular;
+    font-weight: bold;
+    color: #000000;
+    height: 20px;
+}
