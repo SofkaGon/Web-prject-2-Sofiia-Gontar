@@ -23,28 +23,13 @@ Date Last Modified:19/03/2025-->
     <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=League+Spartan:100,200,300,regular,500,600,700,800,900" rel="stylesheet" />
     <style>
+        /*navigation*/
         nav {
     background-color: #154987;
-    overflow: hidden;
-}
-/*navigation*/
-.nav-item {
-    float: left;
-    text-decoration: none;
-    font-family: 'Pangolin', regular;
-    padding: 20px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-size: 25px;
-    cursor: pointer;
-    width: 160px;
-}
+    }
 .nav-item a:hover {
-    text-decoration: none;
-    cursor: pointer;
     color: #8bbdfa;
     background-color: #1977ea; 
-    border-radius: 50px
 }
 /*front image*/
 #image-treaty-rights-main{
@@ -79,6 +64,10 @@ Date Last Modified:19/03/2025-->
     background-color: #c7ddff;
     color: #65a2ff;
 }
+/*links colour*/
+.links-treatypages{
+    color:#8bbdfa;
+}
 /*footer in blue shade*/
 footer{
     background-color: #154987;
@@ -97,15 +86,15 @@ footer{
             <div class="nav-item"><a href="discover-treaties.html"class="nav-item" >DISCOVER</a></div>  
             <div class="nav-item" style="position: relative; left:30%;"><a href="https://treaty1.ca/" target="_blank" rel="noopener noreferrer"><img src="https://treaty1.ca/wp-content/uploads/2024/10/T1N-Logo-1024x286.png" alt="logo of treaty one" style="width: 80%;  position: relative; padding-top: 8%; "/></a></div>
         </nav> 
-          <!--background picture-->
+        <!--background picture-->
         <figure >
                 <img id="image-treaty-rights-main" src="https://lnuey.ca/wp-content/uploads/2020/09/Loretta_TreatyDayPainting-1536x1027.jpg" alt="Colourfull illustration portraying indigenous art, in the center there is a moose and two people shaking hands in agreement">
-                <figcaption tabindex="2" id="figcaption-lnuey-image">https://lnuey.ca/education/treaty-people/#image-gallery</figcaption>
+                <figcaption tabindex="2" id="figcaption-lnuey-image"><a href="https://lnuey.ca/education/treaty-people/#image-gallery">source to main illustration</a></figcaption>
         </figure>
         <!--article and info sections begin-->
-        <section tabindex="3" class="treaty-description-blue-treatypage">
+        <section class="treaty-description-blue-treatypage">
             <article>
-                <h2 >TREATY</h2>
+                <h2 tabindex="3">TREATY</h2>
                 <p>Treaties are legal agreements between groups of people. Indigenous treaties were made between crown (Canada) and Indigenous people (First Nations, Métis and Inuit). Indigenous people agreed to share their land in exchange for goods, payments and promises. Treaties allow to foster relationships and their promises, making them as important today as at the time they were made. <br/>
                     <a style="color: #ffffff;" class="links-treatypages" href="https://kids.kiddle.co/Treaty_1">Learn more about Treaty 1 facts for kids</a></p>
             </article>
@@ -128,39 +117,39 @@ footer{
             <!--positioning pictures using css grid-->
             <div class="grid-container">
                 <figure class="grid-item">
-                    <img src="images/1.png" alt="Brokenhead Ojibway Nation">
+                    <img src="images/1.png" alt="4 people wearing cultural clothing from Brokenhead Ojibway Nation">
                     <p>Brokenhead Ojibway Nation</p>
-                    <figcaption class="figcaption-first-nations-image">https://www.cbc.ca/news/indigenous/brokenhead-ojibway-nation-arbour-powwow-1.6548945</figcaption>
+                    <figcaption class="figcaption-first-nations-image"><a href="https://www.cbc.ca/news/indigenous/brokenhead-ojibway-nation-arbour-powwow-1.6548945">source to Brokenhead Ojibwe Nation picture</a></figcaption>
                 </figure>
                 <figure class="grid-item">
-                    <img src="images/2.png" alt="Long Plain First Nation">
+                    <img src="images/2.png" alt="Long Plain First Nation representative lady presenting through microphone">
                     <p>Long Plain First Nation</p>
-                    <figcaption class="figcaption-first-nations-image">https://peguis.ca/index.php/events/events-past/manitoba-chiefs-elect-kyra-wilson-as-the-next-grand-chief-of-the-assembly-of-manitoba-chiefs</figcaption>
+                    <figcaption class="figcaption-first-nations-image"><a href="https://peguis.ca/index.php/events/events-past/manitoba-chiefs-elect-kyra-wilson-as-the-next-grand-chief-of-the-assembly-of-manitoba-chiefs">source to Long Plain First Nation picture</a></figcaption>
                 </figure>
                 <figure class="grid-item">
-                    <img src="images/3.png" alt="Peguis First Nation">
+                    <img src="images/3.png" alt="Peguis First Nation monument words above, and group of traditionally dressed girls smilling">
                     <p>Peguis First Nation</p>
-                    <figcaption class="figcaption-first-nations-image">https://www.cbc.ca/radio/nowornever/beyond-the-flood-meet-the-people-of-peguis-first-nation-1.6633067</figcaption>
+                    <figcaption class="figcaption-first-nations-image"><a href="https://www.cbc.ca/radio/nowornever/beyond-the-flood-meet-the-people-of-peguis-first-nation-1.6633067">source to Peguis First Nation picture</a></figcaption>
                 </figure>
                 <figure class="grid-item">
-                    <img src="images/4.png" alt="Roseau River Anishinabe First Nation">
+                    <img src="images/4.png" alt="children dressed traditionally for Roseau River Anishinabe First Nation powwow">
                     <p>Roseau River Anishinabe First Nation</p>
-                    <figcaption class="figcaption-first-nations-image">https://www.pembinavalleyonline.com/articles/successful-46th-pow-wow-for-roseau-river-anishinabe-first-nation-video</figcaption>
+                    <figcaption class="figcaption-first-nations-image"><a href="https://www.pembinavalleyonline.com/articles/successful-46th-pow-wow-for-roseau-river-anishinabe-first-nation-video">source to Roseau River Anishinabe First Nation picture</a></figcaption>
                 </figure>
                 <figure class="grid-item">
-                    <img src="images/5.png" alt="Sagkeeng First Nation">
+                    <img src="images/5.png" alt="2 ladies from Sagkeeng First Nation presenting next to statues">
                     <p>Sagkeeng First Nation</p>
-                    <figcaption class="figcaption-first-nations-image">https://www.cbc.ca/news/canada/manitoba/sagkeeng-first-nation-unveils-mmiwg-monument-1.5233630/figcaption>
+                    <figcaption class="figcaption-first-nations-image"><a href="https://www.cbc.ca/news/canada/manitoba/sagkeeng-first-nation-unveils-mmiwg-monument-1.5233630">source to Sagkeeng First Nation picture</a></figcaption>
                 </figure>
                 <figure class="grid-item">
                     <img src="images/6.png" alt="Sandy Bay Ojibway First Nation">
                     <p>Sandy Bay Ojibway First Nation</p>
-                    <figcaption class="figcaption-first-nations-image">https://www.cbc.ca/radio/unreserved/kick-up-your-moccasins-unreserved-visits-the-sandy-bay-ojibway-first-nation-powwow-1.4811455/photos-unreserved-at-the-sandy-bay-ojibway-first-nation-powwow-1.4811711</figcaption>
+                    <figcaption class="figcaption-first-nations-image"><a href="https://www.cbc.ca/radio/unreserved/kick-up-your-moccasins-unreserved-visits-the-sandy-bay-ojibway-first-nation-powwow-1.4811455/photos-unreserved-at-the-sandy-bay-ojibway-first-nation-powwow-1.4811711">source to Sandy Bay Ojibway First Nation picture</a></figcaption>
                 </figure>
                 <figure class="grid-item">
                     <img src="images/7.png" alt="Swan Lake First Nation">
                     <p>Swan Lake First Nation</p>
-                    <figcaption class="figcaption-first-nations-image">https://www.msn.com/en-ca/news/canada/tornado-damaged-powwow-arena-repaired-just-in-time-for-swan-lake-first-nation-s-celebrations/ar-BB1p9UqN</figcaption>
+                    <figcaption class="figcaption-first-nations-image"><a href="https://www.msn.com/en-ca/news/canada/tornado-damaged-powwow-arena-repaired-just-in-time-for-swan-lake-first-nation-s-celebrations/ar-BB1p9UqN">source to Swan Lake First Nation picture</a></figcaption>
                 </figure>
         </section>
         <!--end of main sections-->
