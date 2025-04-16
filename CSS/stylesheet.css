@@ -48,6 +48,7 @@ a{
 figcaption{
     font-size: 12px;
     font-family: 'Pangolin', regular;
+    padding-bottom: 10%;
 }
 
 
@@ -56,6 +57,7 @@ figure{
     margin-right: 0px;
     margin-top: 0px;
     margin-bottom: -8px;
+    align-items: center;
 }
 
 /*grid class style*/
