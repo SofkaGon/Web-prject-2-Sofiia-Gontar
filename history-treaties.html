@@ -11,29 +11,47 @@
     <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=League+Spartan:100,200,300,regular,500,600,700,800,900" rel="stylesheet" />
     <style>
+    /*For colour scheme of each web page I choose monochromatic color scheme. It helps in unifing the webpage, adding colour without overwhelming viewer and dividing content in clear sections. For this I used colour #fbcc04 as primary, #ffb800 as secondary, and #fffae0, #ffffff, #000000 as neutrals*/
+
         /*navigation*/
-        nav {
+nav {
+/*navigation colour shift*/
     background-color: #fbcc04;
     }
     .nav-item{
         color: #000000;
     }
+    /*change of colour after hover*/
 .nav-item a:hover {
     color: #ffffff;
     background-color: #ffb800; 
 }
-/*front image*/
+/*front image fitting*/
 #image-treaty-rights-map{
     width: 100%;
     height: 20%;
     object-fit: fill;
 }
+/*image fitting adjustment*/
 #treaty-one-map-illustration{
     width: 100%;
     height: 100%;
     object-fit: fill;
 }
-/*sections*/
+.images-history{
+    height:50%;
+    width: 100%;
+    object-fit: fill;
+}
+/*unique illustration fitting adjustment*/
+
+#timeline-illustration{
+    height:50%;
+    width: 100%;
+    object-fit: fill;
+}
+
+/*text appearance colour change and margin added*/
 h4{
     color: #ffb800;
     margin-top: 2%;
@@ -43,6 +61,15 @@ h4{
 a{
     color: #1b4a84;
 }
+/*links footer colour*/
+.links-treatypages{
+    color:#000000;
+}
+/*grid image height changed into set px*/
+.grid-item img {
+    height: 500px;
+}
+/*classes that are responsible for section appearance*/
 
 .treaty-description-yellow-treatypage{
     background-color: #fbcc04 ;
@@ -66,30 +93,20 @@ a{
     background-color: #fffae0;
     color: #000000;
     height: 300%;
+    /*section adjustments of padding depending on content*/
     margin-bottom: 10%;
     padding-bottom: 10%;
 }
-.images-history{
-    height:50%;
-    width: 100%;
-    object-fit: fill;
-}
-
-#timeline-illustration{
-    height:50%;
-    width: 100%;
-    object-fit: fill;
-}
-
-/*figcaption appearance*/
+/*figcaption text appearance*/
 #figcaption-canadashistory-image{
     background-color: #fbcc04;
-    color: #551a8b;
+    color: #1b4a84;
 }
 .figcaption-first-nations-image{
     background-color: #fffae0;
     color: #fbcc04;
 }
+/*figcaption and figure internal css padding change*/
 figure{
     padding-top: 5%;
 }
@@ -97,11 +114,7 @@ figcaption{
     padding-top: 0%;
 }
 
-/*links colour*/
-.links-treatypages{
-    color:#000000;
-}
-/*footer in blue shade*/
+/*changes of footer into yellow shade*/
 footer{
     background-color: #ffb800;
     color: #000000;
@@ -109,98 +122,131 @@ footer{
     height: 600px;
     margin-top: 1%;
 }
+/*class that changes copyright colour from footers*/
+.footer-copyright-white-treatypages{
+    padding-top: 2%;
+    background-color: #ffffff;
+}
 
     </style>
 </head> 
     <body> 
-        <!--navigation bar-->
+        <!--navigation bar links-->
         <nav tabindex="1"> 
             <div  class="nav-item"><a href="index.html" class="nav-item">TREATY</a></div> 
             <div class="nav-item"><a href="treaty-map.html" class="nav-item">MAP</a></div> 
             <div class="nav-item"><a href="history-treaties.html" class="nav-item">HiSTORY</a></div> 
             <div class="nav-item"><a href="discover-treaties.html"class="nav-item" >DISCOVER</a></div>  
+                   <!--image used as a link-->
             <div class="nav-item" style="position: relative; left:30%;"><a href="https://treaty1.ca/" target="_blank" rel="noopener noreferrer"><img src="https://treaty1.ca/wp-content/uploads/2024/10/T1N-Logo-1024x286.png" alt="logo of treaty one" style="width: 80%;  position: relative; padding-top: 8%; "/></a></div>
         </nav> 
-        <!--background picture-->
+        <!--background picture and link to source-->
         <figure >
                 <img id="image-treaty-rights-map" src="https://images.squarespace-cdn.com/content/v1/5d62d84202152f00010af18a/1566770659513-KVGQIZUFPTYFGJIKIDWF/We+Are+Water+Protectors+by+Michaela+Goade.jpg?format=1500w" alt="Colourfull illustration portraying indigenous art, in the center there is a moose and two people shaking hands in agreement">
                 <figcaption tabindex="2" id="figcaption-canadashistory-image"><a href="https://www.michaelagoade.com/portfolio-1/from-we-are-water-protectors">source to illustration</a></figcaption>
         </figure>
+        <!--article and info sections begin-->
+                <!--class ditermants sections appearance-->
         <section class="treaty-description-yellow-treatypage">
             <article>
                 <h2 tabindex="3">TREATY</h2>
                 <p>Treaties are legal agreements between groups of people, such as countries, nations or smaller groups that share common goal. Trieties are important part of Canadian history. There are many important trieties helping us to live in peace with eachother, many of which were set by the Crown with Indigenous people. Trieties differentiate from other agreements by being "binding" were both parties should do they're part of the promise. That's why is important to remember set treaties and fullfill them to the best of our ability.<br/>
+                            <!--colour adjustment of link-->
                     <a style="color: #1b4a84;" class="links-treatypages" href="https://kids.britannica.com/kids/article/treaty/627836">Learn more about treaties for kids</a></p>
             </article>
+                    <!--iframes embeded youtube code-->
             <iframe width="560" height="315" src="https://www.youtube.com/embed/SVaK9rAV32A?si=bBUA3n1H8irlymUM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <!--colour adjustment of link-->
             <p><a class="links-treatypages" style="color: #1b4a84;" href="https://www.youtube.com/watch?v=SVaK9rAV32A">Treaty Relationships- A Reading- Youtube video</a></p>
             <figure >
                 <img id="timeline-illustration" src="images/timeline treaties.png" alt="TIMELINE Robinson-Huron and  Robinson-Superior Treaties 1850 Indigenous Treaty making Treaties are made between diverse Indigenous nations long before the first settlers arrive. Some nations’ foundational  treaties are with the land and the creatures we share the  land with, such as the Anishinaabeg. Others (e.g., the Haudenosaunee) use treaties to bind nations in a confederacy. Two Row Wampum 1613 This is among the first well-recorded treaties. The Haudenosaunee extend the Two Row Wampum to the Dutch. The treaty binds them together in respect for autonomy, peace and friendship. The Great Peace of Montreal 1701 Despite numerous treaties during early contact, conflict emerges. This agreement brings together 40 nations, including the Haudenosaunee and the French. The Treaty  of Niagara 24 First Nations accept  the Proclamation and translate it into their own diplomatic terms. Others reject the treaty and continue their conflict with the British in Pontiac’s War. The Numbered Treaties 1870-1921 Immediately following Confederation, Canada embarks on a national treaty-making campaign to secure land in the West for settlement. Over a period of more than 50 years, 13 treaties are made in what is now Ontario, Manitoba, Saskatchewan, Alberta, northern British Columbia and the southern Northwest Territories. Series of Unnamed Treaties 1775-1850 A series of unnamed (and sometimes blank) treaties is created  to secure land for settlement in Upper Canada, ultimately forcing First Nations to move west. European settlers seek more land northwest of the Great Lakes by negotiating treaties. THE DOUGLAS TREATIES 1850 The Colony of Vancouver Island negotiates 14 treaties on the southern part of the island, permitting European settlement and offering support for the Songhees and Esquimalt bands, among others. Atlantic Peace and Friendship Treaties 1725-1779 This series of treaties between the English, Mi’kmaq and Maliseet peoples seeks to end long-term conflict. The treaties recognize Indigenous land rights, while providing the British with limited land access. Covenant Chain LATE 1600S Expanding their influence among European powers, the Haudenosaunee bring the English into their alliance with a series of treaties collectively known as the Covenant Chain. The Royal  Proclamation 1763 England emerges as the dominant colonial power after France’sdefeat in the Seven Years’ War.  To encourage peace with Indigenous nations, King George III recognizes their sovereignty west of the eastern British colonies and  begins a new era of treaty making"/>
+                        <!--colour, padding and margin adjustment of link-->
                 <figcaption style="padding-bottom: 2%; padding-top: -2%; margin-bottom: 5%;" class="figcaption-timeline-image"><a style="color:  #000000;" href="https://education.afn.ca/afntoolkit/web-modules/plain-talk-7-first-nations-historical-timelines-and-maps/timelines/">source to timeline of Canadian early history</a></figcaption>
             </figure>
         </section>
         <section tabindex="5" class="treaty-description-black-treatypages">
             <h2>TREATY ONE</h2>
             <p>First numbered treaty, Treaty 1 was nagotiated in 1871, by Crown and the Anishinabek and Swampy Cree nations of southern Manitoba. Treaty was signed at "Stone Fort" or as known now Fort Garry. As announced by Queen Victoria, the treaty were to be fair for both native people and Crown. In the treaty promise is written "Each band was to receive a reserve large enough to provide 160 acres for each family of five (or in like proportion for smaller or larger families). Each man, woman, and child was to be given a gratuity — or one-time payment — of three dollars, and a yearly annuity totalling $15 per family of five. The government also agreed to maintain a school on each reserve and to prohibit the introduction or sale of liquor on reserves."<br/>
+                        <!--colour adjustment of link-->
                 <a style="color:  #ffb800;" class="links-treatypages" href="https://www.thecanadianencyclopedia.ca/en/article/treaties-1-and-2#TheImpetusforTreaties1and2">Read more about details of treaty 1</a></p>
                 <figure id="" >
                     <img id="handshake-illustration" src="https://www.mhs.mb.ca/docs/sites/images/lowerfortgarry2.jpg" alt="illustration of a white building allong river bank called fort garry"/>
+                        <!--padding and margin adjustment of link-->
                     <figcaption style="padding-bottom: 2%; padding-top: -2%;" class="figcaption-timeline-image"><a style="color:  #000000;" href="https://www.mhs.mb.ca/docs/sites/lowerfortgarry.shtml">Lower Fort Garry</a></figcaption>
                 </figure >
+                        <!--decorational yellow line to saperate page visually-->
                 <p style="background-color: #ffb800"></p>
         </section>
         <section tabindex="4" class="first-nations-lightyellow-treatypages">
+            <!--colour adjustment of header-->
             <h2 style="color: #ffb800;">BROKEN PROMISES</h2>
             <p>Treaty 1 promissed many things. Unfortunatly not everything was explained or disscused as fairly as it should of been. Leading many indigenous people confused later on. This miscommunication and twists in the treaty enforced further hardships for indigenous people, their land and their future. </p><br/>
+            <!--colour adjustment of link-->            
             <a style="color: #ffb800;" class="links-treatypages" href="https://www.thecanadianencyclopedia.ca/en/article/treaties-1-and-2#TheImpetusforTreaties1and2">Read more about details and future effects of treaty 1</a>
-                <div class="grid-container">
+            <!--positioning pictures using css grid-->
+            <div class="grid-container">
+                <!--figures are part of grid item that is positioned using grid container-->
             <figure class="grid-item">
                     <img src="https://treatyeducationandminecraft.files.wordpress.com/2021/03/the-friendship-book.jpg?w=318" alt="4 people wearing cultural clothing from Brokenhead Ojibway Nation">
+                        <!--padding and margin adjustment of link-->
                     <figcaption style="padding-bottom: 2%; padding-top: -2%;" class="figcaption-first-nations-image"><a href="https://treatyeducationandminecraft.wordpress.com/module-2/">illustration of friendship and trade</a></figcaption>
                 </figure>
                 <figure class="grid-item">
                     <img src="https://www.centre-space.ca/wp-content/uploads/2013/05/KM_Study_for_the_Removal_of_Children.jpg" alt="painting of indigenous kids harmfully seperated and riped of moms handsby colonisers">
+                        <!--padding and margin adjustment of link-->
                     <figcaption style="padding-bottom: 2%; padding-top: -2%;" class="figcaption-first-nations-image"><a href="http://www.centre-space.ca/archives/kent-monkman-a-story-of-canada/">painting of indigenous family harmfully seperated by colonisers</a></figcaption>
                 </figure>
             </div>
                     <h4>PEACE AND FRIENDSHIP</h4>
             <p>Treaty while negotiated was mentioned as a supportive and peacefull action between Crown and First Nations. It was a mutual promise to respect eachothers existance and diffrances. Unfortunatly later on many Indigenous people faced sad reality of Crown abusing their privladges and manipulating promises into forced assimilation. </p><br/>
+            <!--colour adjustment of link-->
             <a style="color: #ffb800;" class="links-treatypages" href="https://www.thecanadianencyclopedia.ca/en/article/treaties-1-and-2#TheImpetusforTreaties1and2">Read more about details and future effects of treaty 1</a>
+            <!--positioning pictures using css grid-->    
             <div class="grid-container">
                 <figure class="grid-item">
                         <img src="https://www.tdslaw.com/wp-content/uploads/2022/07/treatyone-photo4.jpg" alt="photo of group of representatives and indigenous chieffies in nature, near human rights museum, signing up an agreement">
+                        <!--padding and margin adjustment of link-->
                         <figcaption style="padding-bottom: 2%; padding-top: -2%;" class="figcaption-first-nations-image"><a href="https://www.tdslaw.com/news/tds-congratulates-treaty-one-first-nations-on-the-signing-of-the-gaawijijigemangit-agreement/">creating agreements on shared land</a></figcaption>
                     </figure>
                     <figure class="grid-item">
                         <img src="https://www.thecollegefix.com/wp-content/uploads/2023/06/Indigenousprotest.RenaSchild.Shutterstock.com72.jpg" alt="photo showing group of activists with posters saying that we are all on indigenous land">
+                        <!--padding and margin adjustment of link-->
                         <figcaption style="padding-bottom: 2%; padding-top: -2%;" class="figcaption-first-nations-image"><a href="https://www.thecollegefix.com/uminn-accused-of-genocide-should-pay-native-american-reparations-report/">activating for indigenous land rights</a></figcaption>
                     </figure>
                 </div>
                     <h4>SHARING THE LAND</h4>
                 </figure>
             <p>Huge focus of the treaty was on land division, use and ownership. Land should have been shared accordingly and Indigenous people should have the ownership of the land and it's recources. They were promised that "Your Great Mother, therefore, will lay aside for you ‘lots’ of land to be used by you and your children forever. She will not allow the white men to intrude upon these lots. She will make rules to keep them for you, so that as long as the sun shall shine, there shall be no Indian who has not a place that he can call his home […]". But as time passed many Indigenous people were resetled to worse and worse reserves, were it was harder to hunt and farm. It also took them from their native own land.</p><br/>
+            <!--colour adjustment of link-->
             <a style="color: #ffb800;" class="links-treatypages"href="https://www.thecanadianencyclopedia.ca/en/article/treaties-1-and-2#TheImpetusforTreaties1and2">Read more about details and future effects of treaty 1</a>
+            <!--positioning pictures using css grid-->                
             <div class="grid-container">
                 <figure class="grid-item">
                         <img src="https://th.bing.com/th/id/OIP.ZI833TPh7PDlTuA3_HpDpQAAAA?w=460&h=526&rs=1&pid=ImgDetMain" alt="paiting of indigenous family enjoying their time and playing instruments in the circle around fire ">
+                        <!--padding and margin adjustment of link-->
                         <figcaption style="padding-bottom: 2%; padding-top: -2%;" class="figcaption-first-nations-image"><a href="https://www.cbc.ca/arts/kent-monkman-being-legendary-rom-1.6614348">painting of indigenous family together</a></figcaption>
                     </figure>
                     <figure class="grid-item">
                         <img src="https://www.theglobeandmail.com/resizer/v2/ZTPE3WPM25BOLFMPHQSJWTQVRY.jpg?auth=7bd81ffafffb27ebc705db226771f757fdece5759238ed627c061960a4900353&width=1000&quality=80" alt="paiting of indigenous afraid kids from resedential schools under controll of guards">
+                        <!--padding and margin adjustment of link-->
                         <figcaption style="padding-bottom: 2%; padding-top: -2%;" class="figcaption-first-nations-image"><a href="https://www.theglobeandmail.com/opinion/article-how-kent-monkman-is-fighting-myth-with-myth/">paiting of influence that resedential schools had</a></figcaption>
                     </figure>
                 </div>
                     <h4>HELPING EACHOTHER</h4>
                 </figure>
                 <p>In this treaty Crown offered additional help to Indigenous people “the Queen was willing to help the Indians in every way, and that besides giving them land and annuities, she would give them a school and a schoolmaster for each reserve, and for those who desired to cultivate the soil ploughs and harrows would be provided on the reserves.” As greatly as it sounded, 'help' given was not as ideal. Indigenous people saw worth in education and therefore agreed to schooling to learn new perspectives. That mentionet education quickly became part of residential schools, forced assimilation, mistreatment, and saperation of families.</p><br/>
+            <!--colour adjustment of link-->
                 <a style="color: #ffb800;" class="links-treatypages" href="https://www.thecanadianencyclopedia.ca/en/article/treaties-1-and-2#TheImpetusforTreaties1and2">Read more about details and future effects of treaty 1</a>    
         </section>
         <section tabindex="5" class="treaty-description-white-treatypages">
             <h2>TRUTH AND RECONCILIATION</h2>
+            <!--colour adjustment of paragraph text-->
             <p style="color: #000000;">In recent years, after many years of hardships that Indigenous people faced and Canadian government hid, truth and reconciliation commision, day and acts were created. The day of September the 30th or orange shirt day, is a reminder of hardships, cruelty and unfairness many indigenous people faced. It's also a day to strive for friendship, reconciliation and remember the truth. Truth and Reconciliation is one of recent ways to remind about the past, advocate for change and recompensation, and to make fair treaties and fair treatment. <br/>
+                <!--colour adjustment of link-->
                 <a style="color:  #ffb800;" class="links-treatypages" href="https://www.cbc.ca/kidsnews/post/watch-what-does-reconciliation-mean/">Watch and read more about reconciliation</a></p>
                 <figure >
                     <img id="handshake-illustration" src="https://www.theglobeandmail.com/resizer/JNJ5u4gRUUcxWT_1J5bqpOUqeLo=/1200x812/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/tgam/HSDQFVP2QVIPLHZQFXXZLVPWTM.JPG" alt="photo of big group of people marchining together in celebration of truth and reconciliation"/>
+                    <!--padding and margin adjustment of link-->
                     <figcaption style="padding-bottom: 2%; padding-top: -2%;" ><a href="https://www.theglobeandmail.com/canada/article-national-day-for-truth-and-reconciliation-canada/">National Day for Truth and Reconciliation</a></figcaption>
                 </figure >
         </section>
@@ -210,6 +256,7 @@ footer{
         <footer tabindex="6">
             <h3>LEARN MORE</h3>
             <section tabindex="7" class="footer-info-blue-treatypages">
+                <!--positioning articles using css grid-->
                 <div class="grid-container">
                     <article>
                         <h4 style="color: #000000;">ABOUT US:</h4>
@@ -236,6 +283,7 @@ footer{
             </section>
             <!--copy right-->
             <section tabindex="8" class="footer-copyright-white-treatypages">
+                <!--use of entetie-->
                 <p>Sofiia Gontar &copy;  all right resetved</p>
             </section>
         </footer>
