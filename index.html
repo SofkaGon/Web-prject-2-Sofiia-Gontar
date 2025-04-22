@@ -89,7 +89,7 @@ footer{
 </head> 
     <body> 
         <!--navigation bar links-->
-        <nav tabindex="1"> 
+        <nav> 
             <div  class="nav-item"><a href="index.html" class="nav-item">TREATY</a></div> 
             <div class="nav-item"><a href="treaty-map.html" class="nav-item">MAP</a></div> 
             <div class="nav-item"><a href="history-treaties.html" class="nav-item">HiSTORY</a></div> 
@@ -99,95 +99,97 @@ footer{
         </nav> 
         <!--background picture and link to source-->
         <figure >
-                <img id="image-treaty-rights-main" src="https://lnuey.ca/wp-content/uploads/2020/09/Loretta_TreatyDayPainting-1536x1027.jpg" alt="Colourfull illustration portraying indigenous art, in the center there is a moose and two people shaking hands in agreement">
+                <img tabindex="0" id="image-treaty-rights-main" src="https://lnuey.ca/wp-content/uploads/2020/09/Loretta_TreatyDayPainting-1536x1027.jpg" alt="Colourfull illustration portraying indigenous art, in the center there is a moose and two people shaking hands in agreement">
                         <!--colour adjustment of link-->
-                <figcaption tabindex="2" id="figcaption-lnuey-image"><a style="color: #c7ddff;" href="https://lnuey.ca/education/treaty-people/#image-gallery">source to main illustration</a></figcaption>
+                <figcaption  id="figcaption-lnuey-image"><a style="color: #c7ddff;" href="https://lnuey.ca/education/treaty-people/#image-gallery">source to main illustration</a></figcaption>
         </figure>
         <!--article and info sections begin-->
                 <!--class ditermants sections appearance-->
         <section class="treaty-description-blue-treatypage">
             <article>
-                <h2 tabindex="3">TREATY</h2>
-                <p>Treaties are legal agreements between groups of people. Indigenous treaties were made between crown (Canada) and Indigenous people (First Nations, Métis and Inuit). Indigenous people agreed to share their land in exchange for goods, payments and promises. Treaties allow to foster relationships and their promises, making them as important today as at the time they were made. <br/>
+                <!--tabindex="0" will take an element and make it focusable-->
+                <h2 tabindex="0">TREATY</h2>
+                <p tabindex="0">Treaties are legal agreements between groups of people. Indigenous treaties were made between crown (Canada) and Indigenous people (First Nations, Métis and Inuit). Indigenous people agreed to share their land in exchange for goods, payments and promises. Treaties allow to foster relationships and their promises, making them as important today as at the time they were made. <br/>
                         <!--colour adjustment of link using inline css-->
                     <a style="color: #ffffff;" class="links-treatypages" href="https://kids.kiddle.co/Treaty_1">Learn more about Treaty 1 facts for kids</a></p>
             </article>
                     <!--iframes embeded youtube code-->
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/bSwCmJ30LPM?si=DpZDXeEnLlleA-9U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe tabindex="0" width="560" height="315" src="https://www.youtube.com/embed/bSwCmJ30LPM?si=DpZDXeEnLlleA-9U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         <!--colour adjustment of link-->
             <p><a class="links-treatypages" style="color: #ffffff;" href="https://www.youtube.com/watch?v=bSwCmJ30LPM">Treaty Relationships- A Reading- Youtube video</a></p>
         </section>
-        <section tabindex="4" class="treaty-description-white-treatypages">
-            <h2>TREATY ONE</h2>
-            <p>Treaty 1 was signed in 1871. It was one of the first treaties between Canada and First Nations that lived around the area of what we now call Winnipeg, Manitoba. First Nations such as: Anishinabe, Swampy Cree Nations, etc. wanted to create peacefull relationships with settlers and maintain their traditional land. As they saw changes that came with newcommers, they wanted security to transition to the new way of life, so they signed traties with Canada.<br/>
+        <section class="treaty-description-white-treatypages">
+            <h2 tabindex="0">TREATY ONE</h2>
+            <p tabindex="0">Treaty 1 was signed in 1871. It was one of the first treaties between Canada and First Nations that lived around the area of what we now call Winnipeg, Manitoba. First Nations such as: Anishinabe, Swampy Cree Nations, etc. wanted to create peacefull relationships with settlers and maintain their traditional land. As they saw changes that came with newcommers, they wanted security to transition to the new way of life, so they signed traties with Canada.<br/>
                         <!--colour adjustment of link-->
                 <a style="color:  #154987;" class="links-treatypages" href="https://kids.kiddle.co/Treaty_1">Learn more about Treaty 1 facts for kids</a></p>
                 <figure >
-                    <img id="handshake-illustration" src="images/handshake illustration.png" alt="illustration of a handshake" />
+                    <img tabindex="0" id="handshake-illustration" src="images/handshake illustration.png" alt="illustration of a handshake" />
                         <!--figcaption appearance in internal/exterbal css-->
                     <figcaption id="figcaption-canva-image"><a href="https://www.canva.com/">canva.com</a></figcaption>
                 </figure >
         </section>
-        <section tabindex="5" class="first-nations-lightblue-treatypages">
-            <h2>FIRST NATIONS</h2>
-            <p>First Nations are groups of indigenous people, original to this land for thousands of years. They are many diffrent Nations with their own traditions, languages and culture. Indigenous people have deep connections to the land, animals, and nature, that are a part of their art, music and stories passed down for generations. Here are some goups of first nations that have lived on treaty 1 territories for thousands of years.</p><br/>
+        <section class="first-nations-lightblue-treatypages">
+            <h2 tabindex="0">FIRST NATIONS</h2>
+            <p tabindex="0">First Nations are groups of indigenous people, original to this land for thousands of years. They are many diffrent Nations with their own traditions, languages and culture. Indigenous people have deep connections to the land, animals, and nature, that are a part of their art, music and stories passed down for generations. Here are some goups of first nations that have lived on treaty 1 territories for thousands of years.</p><br/>
                         <!--colour adjustment of link-->
             <a style="color: #65a2ff;" class="links-treatypages" href="https://treaty1.ca">Learn more at Treaty 1 website</a>
             <!--positioning pictures using css grid-->
             <div class="grid-container">
                     <!--figures are part of grid item that is positioned using grid container-->
                 <figure class="grid-item">
-                    <img src="images/1.png" alt="4 people wearing cultural clothing from Brokenhead Ojibway Nation">
-                    <p>Brokenhead Ojibway Nation</p>
+                    <img tabindex="0" src="images/1.png" alt="4 people wearing cultural clothing from Brokenhead Ojibway Nation">
+                    <p tabindex="0">Brokenhead Ojibway Nation</p>
                     <figcaption class="figcaption-first-nations-image"><a href="https://www.cbc.ca/news/indigenous/brokenhead-ojibway-nation-arbour-powwow-1.6548945">source to Brokenhead Ojibwe Nation picture</a></figcaption>
                 </figure>
                 <figure class="grid-item">
-                    <img src="images/2.png" alt="Long Plain First Nation representative lady presenting through microphone">
-                    <p>Long Plain First Nation</p>
+                    <img tabindex="0" src="images/2.png" alt="Long Plain First Nation representative lady presenting through microphone">
+                    <p tabindex="0">Long Plain First Nation</p>
                     <figcaption class="figcaption-first-nations-image"><a href="https://peguis.ca/index.php/events/events-past/manitoba-chiefs-elect-kyra-wilson-as-the-next-grand-chief-of-the-assembly-of-manitoba-chiefs">source to Long Plain First Nation picture</a></figcaption>
                 </figure>
                 <figure class="grid-item">
-                    <img src="images/3.png" alt="Peguis First Nation monument words above, and group of traditionally dressed girls smilling">
-                    <p>Peguis First Nation</p>
+                    <img tabindex="0" src="images/3.png" alt="Peguis First Nation monument words above, and group of traditionally dressed girls smilling">
+                    <p tabindex="0">Peguis First Nation</p>
                     <figcaption class="figcaption-first-nations-image"><a href="https://www.cbc.ca/radio/nowornever/beyond-the-flood-meet-the-people-of-peguis-first-nation-1.6633067">source to Peguis First Nation picture</a></figcaption>
                 </figure>
                 <figure class="grid-item">
-                    <img src="images/4.png" alt="children dressed traditionally for Roseau River Anishinabe First Nation powwow">
-                    <p>Roseau River Anishinabe First Nation</p>
+                    <img tabindex="0" src="images/4.png" alt="children dressed traditionally for Roseau River Anishinabe First Nation powwow">
+                    <p tabindex="0">Roseau River Anishinabe First Nation</p>
                     <figcaption class="figcaption-first-nations-image"><a href="https://www.pembinavalleyonline.com/articles/successful-46th-pow-wow-for-roseau-river-anishinabe-first-nation-video">source to Roseau River Anishinabe First Nation picture</a></figcaption>
                 </figure>
                 <figure class="grid-item">
-                    <img src="images/5.png" alt="2 ladies from Sagkeeng First Nation presenting next to statues">
-                    <p>Sagkeeng First Nation</p>
+                    <img tabindex="0" src="images/5.png" alt="2 ladies from Sagkeeng First Nation presenting next to statues">
+                    <p tabindex="0">Sagkeeng First Nation</p>
                     <figcaption class="figcaption-first-nations-image"><a href="https://www.cbc.ca/news/canada/manitoba/sagkeeng-first-nation-unveils-mmiwg-monument-1.5233630">source to Sagkeeng First Nation picture</a></figcaption>
                 </figure>
                 <figure class="grid-item">
-                    <img src="images/6.png" alt="Girl from Sandy Bay Ojibway First Nation dancing with hoops in the powwow">
-                    <p>Sandy Bay Ojibway First Nation</p>
+                    <img tabindex="0" src="images/6.png" alt="Girl from Sandy Bay Ojibway First Nation dancing with hoops in the powwow">
+                    <p tabindex="0">Sandy Bay Ojibway First Nation</p>
                     <figcaption class="figcaption-first-nations-image"><a href="https://www.cbc.ca/radio/unreserved/kick-up-your-moccasins-unreserved-visits-the-sandy-bay-ojibway-first-nation-powwow-1.4811455/photos-unreserved-at-the-sandy-bay-ojibway-first-nation-powwow-1.4811711">source to Sandy Bay Ojibway First Nation picture</a></figcaption>
                 </figure>
                 <figure class="grid-item">
-                    <img src="images/7.png" alt="Swan Lake First Nation kids dressed traditionally in the powwow">
-                    <p>Swan Lake First Nation</p>
+                    <img tabindex="0" src="images/7.png" alt="Swan Lake First Nation kids dressed traditionally in the powwow">
+                    <p tabindex="0">Swan Lake First Nation</p>
                     <figcaption class="figcaption-first-nations-image"><a href="https://www.msn.com/en-ca/news/canada/tornado-damaged-powwow-arena-repaired-just-in-time-for-swan-lake-first-nation-s-celebrations/ar-BB1p9UqN">source to Swan Lake First Nation picture</a></figcaption>
                 </figure>
         </section>
         <!--end of main sections-->
         <!--footer and further info-->
-        <footer tabindex="6">
-            <h3>LEARN MORE</h3>
-            <section tabindex="7" class="footer-info-blue-treatypages">
+        <!--tabindex="7"-->
+        <footer >
+            <h3 tabindex="0">LEARN MORE</h3>
+            <section  class="footer-info-blue-treatypages">
                 <!--positioning articles using css grid-->
                 <div class="grid-container">
                     <article>
-                        <h4>ABOUT US:</h4>
-                        <p>Hi, we are team who wants to share indigenous teachings and knowladge to young explorers like you! We hope you learned and discovered something new today!</p>
-                        <p>To contact our team:<a class="links-treatypages" href="https://mail.google.com/mail/u/0/?hl=en#inbox">Gmail</a></p>
-                        <p>We are also gratefull for everyone who made this project possible and our designer/web developer, here is contact informaton:<a class="links-treatypages" href="https://www.behance.net/sofiiagontar"><!--colour adjustment of link using span--><span style="color: #c7ddff;">Behance-Sofiia Gontar</span></a></p>
+                        <h4 tabindex="0">ABOUT US:</h4>
+                        <p tabindex="0">Hi, we are team who wants to share indigenous teachings and knowladge to young explorers like you! We hope you learned and discovered something new today!</p>
+                        <p tabindex="0">To contact our team:<a class="links-treatypages" href="https://mail.google.com/mail/u/0/?hl=en#inbox">Gmail</a></p>
+                        <p tabindex="0">We are also gratefull for everyone who made this project possible and our designer/web developer, here is contact informaton:<a class="links-treatypages" href="https://www.behance.net/sofiiagontar"><!--colour adjustment of link using span--><span style="color: #c7ddff;">Behance-Sofiia Gontar</span></a></p>
                     </article>
                     <article>
                         <!--links to resources used for reaserch/included on the web-->
-                        <h4>MORE RECOURCES:</h4>
+                        <h4 tabindex="0">MORE RECOURCES:</h4>
                         <ul style="list-style-type: none;">
                             <li><a class="links-treatypages" href="https://treaty1.ca">Treaty 1 website</a></li>
                             <li><a class="links-treatypages" href="https://kids.kiddle.co/Treaty_1">Treaty 1 facts for kids</a></li>
@@ -203,9 +205,10 @@ footer{
                 </div>
             </section>
             <!--copy right-->
-            <section tabindex="8" class="footer-copyright-white-treatypages">
+            <!--tabindex="8"-->
+            <section class="footer-copyright-white-treatypages">
                 <!--use of entetie-->
-                <p>Sofiia Gontar &copy;  all right resetved</p>
+                <p tabindex="0">Sofiia Gontar &copy;  all right resetved</p>
             </section>
         </footer>
 

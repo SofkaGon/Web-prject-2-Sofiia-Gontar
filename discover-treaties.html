@@ -82,7 +82,7 @@ footer{
 </head> 
     <body> 
         <!--navigation bar links-->
-        <nav tabindex="1"> 
+        <nav> 
             <div  class="nav-item"><a href="index.html" class="nav-item">TREATY</a></div> 
             <div class="nav-item"><a href="treaty-map.html" class="nav-item">MAP</a></div> 
             <div class="nav-item"><a href="history-treaties.html" class="nav-item">HiSTORY</a></div> 
@@ -92,62 +92,64 @@ footer{
         </nav> 
         <!--background picture and link to source-->
         <figure >
-                <img id="image-treaty-rights-map" src="https://www.ncnwellness.ca/wp-content/uploads/family-community-drawing.jpg" alt="Colourfull illustration portraying indigenous art, in the center there is a moose and two people shaking hands in agreement">
-                <figcaption tabindex="2" id="figcaption-canadashistory-image"><a href="https://www.michaelagoade.com/portfolio-1/from-we-are-water-protectors">source to illustration</a></figcaption>
+                <img tabindex="0" id="image-treaty-rights-map" src="https://www.ncnwellness.ca/wp-content/uploads/family-community-drawing.jpg" alt="Colourfull illustration portraying indigenous art, in the center there is a moose and two people shaking hands in agreement">
+                <figcaption  id="figcaption-canadashistory-image"><a href="https://www.michaelagoade.com/portfolio-1/from-we-are-water-protectors">source to illustration</a></figcaption>
         </figure>
         <!--article and info sections begin-->
                 <!--class ditermants sections appearance-->
         <section class="treaty-description-green-treatypage">
-                <h2 tabindex="3">PLAY LISTEN READ DISCOVER </h2>
+                <h2 tabindex="0">PLAY LISTEN READ DISCOVER </h2>
                     <!--addtional feature is an interactive embeded website that links further articles and games-->
-                    <iframe width="560" height="315" src="https://teachers-ab.libguides.com/ier4students/interactives" allowfullscreen></iframe>
+                    <iframe tabindex="0" width="560" height="315" src="https://teachers-ab.libguides.com/ier4students/interactives" allowfullscreen></iframe>
                     <!--colour adjustment of link-->
                     <p><a class="links-treatypages" style="color: #1b4a84;" href=": https://teachers-ab.libguides.com/ier4students">Link to online library with recources</a></p>
                     <!--addtional feature is an interactive embeded website that links further articles and games-->
-                    <iframe width="560" height="315" src="https://alignab.ca/resource/aligns-20-great-ways-for-children-youth-families-to-honour-national-indigenous-history-month/" allowfullscreen></iframe>
+                    <iframe tabindex="0" width="560" height="315" src="https://alignab.ca/resource/aligns-20-great-ways-for-children-youth-families-to-honour-national-indigenous-history-month/" allowfullscreen></iframe>
                     <!--colour adjustment of link-->
                     <p><a class="links-treatypages" style="color: #1b4a84;" href="https://alignab.ca/resource/aligns-20-great-ways-for-children-youth-families-to-honour-national-indigenous-history-month/">Link to online portal with recources</a></p>
                     <!--addtional feature is an interactive embeded website that links further articles and games-->
-                    <iframe width="560" height="315" src="https://www.cbc.ca/kids/search?q=indigenous&filter=all" allowfullscreen></iframe>
+                    <iframe tabindex="0" width="560" height="315" src="https://www.cbc.ca/kids/search?q=indigenous&filter=all" allowfullscreen></iframe>
                     <!--colour adjustment of link-->
                     <p><a class="links-treatypages" style="color: #1b4a84;" href="https://www.cbc.ca/kids/search?q=indigenous&filter=all">Link to games and videos for kids from cbc</a></p>
         </section>
         <section class="treaty-description-white-treatypages">
-                <h2 tabindex="3">LEARN MORE</h2>
+                <h2 tabindex="0">LEARN MORE</h2>
                 <!--form to help connectivity of client with viewers-->
-                <p>If you are a teacher or parent who wants to sign up for more recources, fill the form below</p>
+                <p tabindex="0">If you are a teacher or parent who wants to sign up for more recources, fill the form below</p>
                     <!--form's font size is set as larger to allow easier readability-->
                 <form style="font-size: larger;"> 
-                    <label  for="email">Provide Email:</label></br></br>
+                    <label tabindex="0" for="email">Provide Email:</label></br></br>
                     <!--input type email helps web browser to fill automaticaly users email, making it more conviniant-->  
                     <input type="email" id="email" name="email" value="email"></br></br>
-                    <label for="grade-level-intrest">Pick grade level you're intrested in:</label></br></br>
+                    <label tabindex="0" for="grade-level-intrest">Pick grade level you're intrested in:</label></br></br>
                     <!--multi choice checkbox to specify viewers intrests-->
                     <input type="checkbox" id="grade-1-4" name="grade-level-intrest" value="1-4">
-                    <label for="grade-1-4">1-4</label></br>
+                    <label tabindex="0" for="grade-1-4">1-4</label></br>
                     <input type="checkbox" id="grade-5-8" name="grade-5-8" value=" 5-8">
-                    <label for="grade-5-8"> 5-8</label></br>
+                    <label tabindex="0" for="grade-5-8"> 5-8</label></br>
                     <input type="checkbox" id="grade-9-+" name="grade-9-+" value="9 +">
-                    <label for="grade-9-+"> 9 +</label></br></br>
+                    <label tabindex="0" for="grade-9-+"> 9 +</label></br></br>
                     <input type="button" value="sign up"></br></br>
                 </form>
             </section>
         <!--end of main sections-->
         <!--footer and further info-->
         <section>
-            <footer tabindex="6">
-                <h3>LEARN MORE</h3>
-                <section tabindex="7" class="footer-info-blue-treatypages">
+            <footer >
+                <h3 tabindex="0">LEARN MORE</h3>
+                <section  class="footer-info-blue-treatypages">
                 <!--positioning articles using css grid-->
                     <div class="grid-container">
                         <article>
-                            <h4 style="color:#E3FDE8 ;">ABOUT US:</h4>
-                            <p>Hi, we are team who wants to share indigenous teachings and knowladge to young explorers like you! We hope you learned and discovered something new today!</p>
-                            <p>To contact our team:<a class="links-treatypages" href="https://mail.google.com/mail/u/0/?hl=en#inbox">Gmail</a></p>
-                            <p>We are also gratefull for everyone who made this project possible and our designer/web developer, here is contact informaton:<a class="links-treatypages" href="https://www.behance.net/sofiiagontar"><span style="color: #6dc17e;">Behance-Sofiia Gontar</span></a></p>
+                                <!--colour adjustment of header-->
+                            <h4 tabindex="0" style="color:#E3FDE8 ;">ABOUT US:</h4>
+                            <p tabindex="0">Hi, we are team who wants to share indigenous teachings and knowladge to young explorers like you! We hope you learned and discovered something new today!</p>
+                            <p tabindex="0">To contact our team:<a class="links-treatypages" href="https://mail.google.com/mail/u/0/?hl=en#inbox">Gmail</a></p>
+                            <p tabindex="0">We are also gratefull for everyone who made this project possible and our designer/web developer, here is contact informaton:<a class="links-treatypages" href="https://www.behance.net/sofiiagontar"><span style="color: #6dc17e;">Behance-Sofiia Gontar</span></a></p>
                         </article>
                         <article>
                             <!--links to resources used for reaserch/included on the web-->
+                                <!--colour adjustment of header-->
                             <h4 style="color:#E3FDE8 ;">MORE RECOURCES:</h4>
                             <ul style="list-style-type: none;">
                                 <li><a class="links-treatypages" href="https://treaty1.ca">Treaty 1 website</a></li>
@@ -164,9 +166,9 @@ footer{
                     </div>
                 </section>
                 <!--copy right-->
-                <section tabindex="8" class="footer-copyright-white-treatypages">
+                <section  class="footer-copyright-white-treatypages">
                     <!--use of entetie-->
-                    <p>Sofiia Gontar &copy;  all right resetved</p>
+                    <p tabindex="0">Sofiia Gontar &copy;  all right resetved</p>
                 </section>
             </footer>
         </Section>
